@@ -1,0 +1,20 @@
+{
+    "name": "darwin/php-pdo",
+    "description": "this is a practice of PHP with PDO and Mysql",
+    "type": "project",
+    "require": {
+        "vlucas/phpdotenv": "^5.4"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Darwin\\PhpPdo\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Darwin Grisales",
+            "email": "darwingrisalesg@gmail.com"
+        }
+    ]
+}
