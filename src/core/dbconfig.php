@@ -1,7 +1,7 @@
 <?php 
-require ('../../vendor/autoload.php');
+require ('../vendor/autoload.php');
 
-$dotenv = Dotenv\Dotenv::createImmutable('../../');
+$dotenv = Dotenv\Dotenv::createImmutable('../');
 $dotenv->load();
 
 define("DB_DRIVER", $_ENV['DDBB_DRIVER']);
