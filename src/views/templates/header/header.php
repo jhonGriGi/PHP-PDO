@@ -8,13 +8,19 @@
   <title>Document</title>
 </head>
 <body>
-  <nav>
-    <ul>
-      <li>
-        <a href="../paciente/list_pacientes.php">Listar pacientes</a>
-      </li>
-      <li>
-        <a href="../citas/listar_citas.php">Listar citas</a>
-      </li>
-    </ul>
-  </nav>
+  <nav class="navbar">
+  <ul>
+    <li>
+      <a href="<?php echo '/PHP-PDO/src/views/paciente/list_pacientes.php'; ?>">Listar pacientes</a>
+    </li>
+    <li>
+      <a href="<?php echo '/PHP-PDO/src/views/paciente/insert_paciente.php'; ?>">Agregar nuevo paciente</a>
+    </li>
+    <li>
+      <a href="<?php echo '/PHP-PDO/src/views/paciente/edit_paciente.php'; ?>">Editar paciente</a>
+    </li>
+    <li>
+      <a href="#">Listar citas</a>
+    </li>
+  </ul>
+</nav>
